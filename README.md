@@ -1,14 +1,14 @@
-# Resampling and Ensemble Learning (for predicting credit risk )
+# Resampling and Ensemble Learning - for predicting credit risk
+
 Apply various Resampling and Ensemble Learning techniques, by using imbalanced-learn and Scikit-learn libraries, to build and evaluate machine learning models to predict credit risk. 
 
 ## Background
----
+
 Credit and loan service offerings online has increased a lot in the past few years, e.g. mortgages, student loans and these services are offered without using a bank. To mitigate the risk, machine learning techniques have been applied through models that can be used to predict credit risk.</br>
 
 Credit risk is an inherently imbalanced classification problem (the number of good loans is much larger than the number of at-risk loans), so different techniques have been employed for training and evaluating models with imbalanced classes. The imbalanced-learn and Scikit-learn libraries are used to build and evaluate models as part of this exercise, using the two techniques Resampling and Ensemble Learning.
 
 ## Resampling
----
 
 For resampling, the imbalanced learn library was used to resample the data and then using the resampled data to build and evaluate logistic regression classifiers.
 The following models were compared:
@@ -52,7 +52,7 @@ Diagram summarising Balanced Accuracy Score (BAC), Recall and Geometric Mean of 
    Oversampling, SMOTE and SMOTEENN sampling models all had a geometrical mean score of 0.99 
    
 ## Ensemble Learning
----
+
 Two different ensemble classifiers was used to predict loan risk and evaluate each model:
 1. Balanced Random Forest Classifier
 2. Easy Ensemble Classifier.
@@ -89,7 +89,7 @@ Diagram summarising Balanced Accuracy Score (BAC), Recall and Geometric Mean of 
    3. Debt to Income (17.42%)
 </br>
 </br>
-- - -
+
 
 ## Files used for the purposes of this modeling exercise.
 
